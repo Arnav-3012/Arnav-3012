@@ -99,14 +99,6 @@ class Arnav:
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=E62429&height=2" width="100%" />
 
-## 📈 POWER OUTPUT
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Arnav-3012&bg_color=0A0A0A&color=FFD700&line=E62429&point=FFFFFF&area=true&area_color=E62429&hide_border=true&custom_title=Contribution%20Power%20Output" width="100%" />
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=E62429&height=2" width="100%" />
-
 ## 🐍 CONTRIBUTION SNAKE
 
 <p align="center">
