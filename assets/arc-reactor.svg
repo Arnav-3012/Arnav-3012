@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#7df9ff"/>
+      <stop offset="100%" stop-color="#0077ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="url(#core)" opacity="0.35" filter="url(#blur)">
+    <animate attributeName="opacity" values="0.2;0.65;0.2" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="100" r="84" fill="none" stroke="#E62429" stroke-width="3" opacity="0.9"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#7df9ff" stroke-width="6" stroke-dasharray="14 8">
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="100" r="62" fill="none" stroke="#FFD700" stroke-width="3" stroke-dasharray="4 6">
+    <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="100" r="46" fill="none" stroke="#cfefff" stroke-width="3"/>
+  <polygon points="100,68 128,116 72,116" fill="none" stroke="#7df9ff" stroke-width="3" stroke-linejoin="round">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+  </polygon>
+  <circle cx="100" cy="100" r="15" fill="url(#core)">
+    <animate attributeName="r" values="13;18;13" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
